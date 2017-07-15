@@ -1,16 +1,24 @@
 DeviceName,DeviceDetail,ImagePath,PlayStationVue,PlayStationVueDetail,HuluLive,HuluLiveDetail,YouTubeLive,YouTubeLiveDetail,SlingTV,SlingTVDetail,DirecTVNow,DirecTVNowDetail
-Amazon Fire Tablets,,,Yes,3rd Gen+,No,,,,,,,
-Amazon fireTV,,,Yes,All Gens,No,,,,,,,
-Amazon fireTVstick,,,Yes,All Gens,No,,,,,,,
-AndroidTV,,,Yes,All Gens,No,,,,,,,
-Android Phones,,,No,,Yes,,,,,,,
-Android Tablets,,,No,,Yes,,,,,,,
-Apple iPad,,,Yes,"iOS 7.0+, iPad Mini 1st Gen+, iPad 2nd Gen+",Yes,,,,,,,
-Apple iPhone,,,Yes,"iOS 7.0+, iPhone 5+, iPod Touch 4th Gen+",Yes,,,,,,,
-AppleTV,,,Yes,4th Gen+ Running OS 10.0+,Yes,4th Gen,,,,,,
-Google Chromecast,,,Yes,All Gens,Yes,,,,,,,
-Sony PlayStation 4,,,Yes,,No,,,,,,,
-Sony PlayStation 3,,,Yes,,No,,,,,,,
-Roku,,,Yes,OS 7.1+,No,,,,,,,
-Xbox One,,,No,,Yes,,,,,,,
-Web Browsers,,,,,Yes,,,,,,,
+AirTV,,,No,,No,,,,Yes,,No,
+Amazon Fire Tablets,,,Yes,3rd Gen+,No,,,,Yes,Android 4.4.2+,No,
+Amazon fireTV,,amazon-firetv-logo.png,Yes,All Gens,No,,,,Yes,,Yes,
+Amazon fireTVstick,,,Yes,All Gens,No,,,,Yes,,Yes,
+AndroidTV,,,Yes,All Gens,No,,,,Yes,,No,
+Android Phones,,,No,,Yes,,,,Yes,Android 4.4+,Yes,Android 4.4+
+Android Tablets,,,No,,Yes,,,,Yes,Android 4.4+,Yes,Android 4.4+
+Apple iPad,,apple-ipad-logo.svg,Yes,"iOS 7.0+, iPad Mini 1st Gen+, iPad 2nd Gen+",Yes,,,,Yes,iOS 9+,Yes,iOS 9+
+Apple iPhone,,apple-iphone-logo.svg,Yes,"iOS 7.0+, iPhone 5+, iPod Touch 4th Gen+",Yes,,,,Yes,iOS 9+,Yes,"iOs 9+, iPhone 5+, iPod Touch"
+Apple OSX App,,apple-osx-logo.svg,No,,No,,,,Yes,,No,
+AppleTV,,apple-appletv-logo.svg,Yes,4th Gen+ Running OS 10.0+,Yes,4th Gen+,,,Yes,4th Gen+,Yes,4th Gen+
+Channel Master,,,No,,No,,,,Yes,,No,
+Google Chromecast,,,Yes,All Gens,Yes,,,,Yes,,Yes,2nd Gen+
+LeEco,,,No,,No,,,,Yes,,No,
+LG webOS,,,No,,No,,,,Yes,Most LG webOS 3.0,No,
+Microsoft Windows App,,,No,,No,,,,Yes,,No,
+Roku,,,Yes,OS 7.1+,No,,,,Yes,Roku LT+,Yes,"Insignia 4K Roku TV (model 7000X), TCL 4K Roku TV (model 7000X), Roku Streaming Stick (2016), Roku 4, Roku Premiere, Roku Premiere +, Roku Ultra, Roku 2 (model 4210), Roku 3, Roku Express, Roku Express +, Roku 4K TV"
+Sony PlayStation 4,,,Yes,,No,,,,No,,No,
+Sony PlayStation 3,,sony-playstation3-logo.svg,Yes,,No,,,,No,,No,
+Web Browsers,,,,,Yes,,,,,,Yes,
+Xbox One,,,No,,Yes,,,,Yes,,No,
+Xiaomi,,,No,,No,,,,Yes,,No,
+ZTE,,,No,,No,,,,Yes,,No,
