@@ -161,6 +161,11 @@ th,td {
 	vertical-align: top;
 }
 
+.fixed tr.header-row {
+	border-bottom: 1px solid #c0c0c0;
+	box-shadow: 0px 45px 60px -65px rgba(0,0,0,0.85);
+}
+
 table.options-list td img {
 	max-width: 90%; 
 	display:block; 
@@ -171,6 +176,15 @@ table.options-list td img {
 table.options-list td img {
 	height: 60px;
 	width: auto;
+}
+
+th .platform-logo {
+	padding: 10px 20px;
+}
+
+th .platform-logo img {
+	width: 100%;
+	height: auto;
 }
 
 tbody tr:nth-child(even):not(.options-list-footer) {
@@ -198,7 +212,7 @@ td.leader {
     font-weight: bold;
 }
 
-tr:hover .option-details {
+.option-wrapper:hover .option-tooltip {
     display: block;
 }
 
@@ -209,6 +223,11 @@ tr:hover .option-details {
 
 .option-icon {
 	font-size: 48px !important;	
+}
+
+i.fa {
+	border-radius: 24px;
+	background-color: #fff;
 }
 
 .option-icon i {
@@ -230,9 +249,9 @@ tr:hover .option-details {
 	opacity: 0.15;
 }
 
-.option-details {
+.option-tooltip {
     position: absolute;
-    top: 65px;
+    top: 75px;
     left: 0;
     right: 0;
     margin: auto;
@@ -240,13 +259,13 @@ tr:hover .option-details {
     display: none;
     background-color: rgba(0, 0, 0, 0.9);
     padding: 20px;
-    width: 90%;
+	width: 90%;
     z-index: 10;
     box-sizing: border-box;
     border-radius: 4px;
 }
 
-.option-details:hover {
+.option-tooltip:hover {
     display: none !important;
 }
 
@@ -271,6 +290,12 @@ tr:hover .option-details {
     display: none;
 }
 
+.tooltip-title {
+	display: block;
+	font-weight: bold;
+	padding: 0 0 5px 0;
+}
+
 .fixed {
 	top:0;
 	position:fixed;
@@ -281,6 +306,7 @@ tr:hover .option-details {
 }
 
 footer {
+	padding: 20px;
 	font-size: 13px;
 	text-align: center;
 }

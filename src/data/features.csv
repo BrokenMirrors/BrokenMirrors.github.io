@@ -1,0 +1,6 @@
+FeatureName,FeatureDetail,ImagePath,PlayStationVue,PlayStationVueDetail,HuluLive,HuluLiveDetail,YouTubeLive,YouTubeLiveDetail,SlingTV,SlingTVDetail,DirecTVNow,DirecTVNowDetail
+Cloud DVR,Allows for the recording and online storage or shows for later viewing.,,Yes,30-day storage limit,,,,,,,,
+Multiple Viewer Profiles,Allows the creation of multiple user profiles.,,Yes,5 Profile limit,,,,,,,,
+Simultaneous Device Streaming,Allows you to view on multiple devices at the same time.,,Yes,5 Device limit,,,,,,,,
+Channel Favoriting,Allows you to create a custom channel guide containing your favorite channels.,,Yes,,,,,,,,,
+Split-Screen Viewing (PIP),Allows for the viewing of multiple channels at once.,,Yes,3 Channel limit,,,,,,,,
