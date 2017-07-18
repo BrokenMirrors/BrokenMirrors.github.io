@@ -132,8 +132,10 @@ body {
 }
 
 h1 {
-	font-size: 1.5em;
+	font-size: 1.75em;
 	margin: 2.5em 0 1em 0;
+	padding: 10px 0;
+	border-bottom: 1px solid #c0c0c0;
 }
 
 .container {
@@ -159,11 +161,6 @@ th,td {
 	padding:5px 0;
 	width: 16.66%;
 	vertical-align: top;
-}
-
-.fixed tr.header-row {
-	border-bottom: 1px solid #c0c0c0;
-	box-shadow: 0px 45px 60px -65px rgba(0,0,0,0.85);
 }
 
 table.options-list td img {
@@ -301,7 +298,9 @@ i.fa {
 	position:fixed;
 	width:auto;
 	display:none;
-    border:none;
+	border:none;
+	border-bottom: 1px solid #c0c0c0;
+	box-shadow: 0px 25px 60px -45px rgba(0,0,0,1);
     z-index: 20;
 }
 
@@ -309,4 +308,6 @@ footer {
 	padding: 20px;
 	font-size: 13px;
 	text-align: center;
+	width: 80%;
+	margin: 20px auto;
 }
