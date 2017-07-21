@@ -4,14 +4,25 @@
 	/* border: none;
 	outline: none; */
 	font-size: 100%;
-	font-family: 'Zilla Slab', serif;
+	/* font-family: 'Zilla Slab', serif; */
+	font-family: 'Raleway';
 	/* text-decoration: none;
 	box-sizing: border-box; */
 }
 
+@font-face{ 
+	font-family: 'emphasis';
+	src: url('../fonts/emphasis-webfont.eot');
+	src: url('../fonts/emphasis-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/emphasis-webfont.woff') format('woff'),
+	     url('../fonts/emphasis-webfont.ttf') format('truetype')
+}
+
 html, body { 
 	height: 100%;
-	font-family: 'Zilla Slab', serif;
+	/* font-family: 'Zilla Slab', serif; */
+	font-family: 'Raleway';
+	background-color: #f7f5f2;
 }
 
 body {
@@ -23,7 +34,7 @@ body {
 	height: 52vw;
 	position: relative;
 	overflow: hidden;
-	background: url("/assets/heroes/the-walking-dead-1.jpg") no-repeat center center fixed / cover;
+	background: url("/assets/heroes/the-preacher.jpg") no-repeat center center fixed / cover;
 	perspective: 1000px;
 }
 
@@ -118,24 +129,29 @@ body {
 	top: 30vw;
 	width: 50vw;
 	height: 50vh;
-	padding: 2vw 1vw;
+	padding: 3vw 1vw;
 	text-align: center;
-	font-size: 4em;
+	font-size: 120px;
 	font-weight: bold;
 	color: #fff;
+	font-family: 'emphasis';
+	line-height: 80px;
 }
 
 .title .subtitle {
 	font-size: 1.5rem;
+	line-height: 1em;
 	font-style: italic;
 	font-weight: normal;
 }
 
 h1 {
-	font-size: 1.75em;
+	font-family: 'emphasis';
+	font-size: 2.5em;
 	margin: 2.5em 0 1em 0;
 	padding: 10px 0;
 	border-bottom: 1px solid #c0c0c0;
+	color: #A9019F;
 }
 
 .container {
@@ -153,7 +169,7 @@ table {
 }
 
 thead {
-	background:#fff;
+	background:#f7f5f2;
 }
 
 th,td {
@@ -206,7 +222,9 @@ tbody tr.options-list-footer td {
 
 td.leader {
     vertical-align: middle;
-    font-weight: bold;
+	font-weight: bold;
+	text-align: left;
+	padding: 0 0 0 20px;
 }
 
 .option-wrapper:hover .option-tooltip {
